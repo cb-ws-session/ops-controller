@@ -1,9 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "cb-ws-session-ops-controller"
 description: "CloudBees CI configuration bundle for the cb-ws-session ops-controller Controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/jenkins.yaml"
+  - "jcasc/credentials.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
